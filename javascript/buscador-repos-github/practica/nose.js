@@ -41,3 +41,5 @@ function riemannSum(f, a, b, n=100, method='mid'){
 // console.log(riemannSum(x=>x*x, 0, 1, 1000, 'trap')) // ~1/3
 
 module.exports = { riemannSum };
+
+

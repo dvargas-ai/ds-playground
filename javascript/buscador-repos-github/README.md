@@ -1,47 +1,40 @@
-# JELOU AI — Aprendiendo JavaScript y agentes de IA
+# JavaScript fundamentals — building a GitHub tool
 
-Repositorio donde documento mi aprendizaje de **JavaScript** desde cero, con la
-meta de entender cómo se construyen las **"tools" que usan los agentes de IA**.
+A learning journal where I document my JavaScript journey from scratch, with the goal of understanding how **"tools" work in AI agents**: small, single-responsibility functions that an agent can call when it needs data.
 
-Una *tool* es, en esencia, una función con una sola responsabilidad clara (por
-ejemplo: "ir a buscar datos a internet") que un agente puede llamar cuando la
-necesita. Este repo arranca construyendo exactamente eso.
-
-## Estructura
-
-```
-JELOU AI/
-├── buscador-repos/   →  EL ENTREGABLE: herramienta pulida y lista para mostrar
-│   ├── github.js         la tool que consulta la API de GitHub
-│   ├── index.js          el orquestador que la usa
-│   └── README.md
-│
-└── practica/         →  EL CAMINO: scripts sueltos de aprendizaje, en orden
-    ├── hola.js           funciones básicas
-    ├── usuario.js        primera llamada a una API
-    ├── repos.js          listas y manejo de errores
-    ├── repos2.js         funciones que colaboran
-    └── README.md
-```
-
-## Por dónde empezar
-
-- ¿Quieres ver el **resultado final**? Entra a
-  [`buscador-repos/`](./buscador-repos) y sigue su README.
-- ¿Quieres ver **cómo aprendí** paso a paso? Entra a
-  [`practica/`](./practica).
-
-## Resumen de lo aprendido hasta ahora
-
-1. **Funciones**: recibir parámetros, `return` vs `console.log`.
-2. **Asincronía**: `fetch`, `await` y `.json()` para trabajar con datos de internet.
-3. **Datos**: diferencia entre un objeto y una lista (arreglo), y cómo recorrer
-   listas con `for...of`.
-4. **Robustez**: `try/catch` y `respuesta.ok` para que el programa no se caiga
-   ante errores (usuario inexistente, fallo de red).
-5. **Organización**: dividir el código en módulos (`module.exports` / `require`) y
-   separar responsabilidades — buscar los datos por un lado, mostrarlos por otro.
-
-## Requisitos
-
-- [Node.js](https://nodejs.org) 18 o superior.
+> A *tool* is, at its core, a function with one clear responsibility (e.g., "fetch data from the internet") that an agent can invoke on demand. This project builds exactly that.
+>
+> ## Structure
+>
+> ```
+> buscador-repos-github/
+> ├── buscador-repos/   → THE DELIVERABLE: polished, ready-to-show tool
+> │   ├── github.js         the tool that queries the GitHub API
+> │   ├── index.js          the orchestrator that calls the tool
+> │   ├── package.json      project metadata + Node.js version requirement
+> │   └── README.md
+> │
+> └── practica/         → THE PATH: loose learning scripts, in order
+>     ├── hola.js           basic functions
+>     ├── usuario.js        first API call
+>     ├── repos.js          lists and error handling
+>     ├── repos2.js         functions that collaborate
+>     └── README.md
+> ```
+>
+> ## Where to start
+>
+> - **Want to see the final result?** Go to [`buscador-repos/`](./buscador-repos) and follow its README.
+> - - **Want to see how I learned step by step?** Go to [`practica/`](./practica).
+>  
+>   - ## Concepts covered
+>  
+>   - 1. **Functions**: parameters, `return` vs `console.log`.
+>     2. 2. **Async**: `fetch`, `await` and `.json()` to work with data from the internet.
+>        3. 3. **Data**: difference between an object and an array, iterating with `for...of`.
+>           4. 4. **Robustness**: `try/catch` and `respuesta.ok` so the program doesn't crash on missing users or network failures.
+>              5. 5. **Modules**: splitting code into files with `module.exports` / `require` — data fetching in one place, displaying in another.
+>                
+>                 6. ## Requirements
+>                
+>                 7. - [Node.js](https://nodejs.org) v18 or higher.
