@@ -1,5 +1,5 @@
 {
-    "name": "buscador-repos-github",
+    "name": "github-repo-finder",
     "version": "1.0.0",
     "description": "Node.js tool that queries the GitHub API and lists a user's public repositories — built as a learning project for AI agent tooling.",
     "main": "index.js",

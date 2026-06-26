@@ -7,16 +7,16 @@ A learning journal where I document my JavaScript journey from scratch, with the
 > ## Structure
 >
 > ```
-> buscador-repos-github/
-> ├── buscador-repos/   → THE DELIVERABLE: polished, ready-to-show tool
+> github-repo-finder/
+> ├── repo-finder/      → THE DELIVERABLE: polished, ready-to-show tool
 > │   ├── github.js         the tool that queries the GitHub API
 > │   ├── index.js          the orchestrator that calls the tool
 > │   ├── package.json      project metadata + Node.js version requirement
 > │   └── README.md
 > │
-> └── practica/         → THE PATH: loose learning scripts, in order
->     ├── hola.js           basic functions
->     ├── usuario.js        first API call
+> └── practice/         → THE PATH: loose learning scripts, in order
+>     ├── hello.js          basic functions
+>     ├── user.js           first API call
 >     ├── repos.js          lists and error handling
 >     ├── repos2.js         functions that collaborate
 >     └── README.md
@@ -24,15 +24,15 @@ A learning journal where I document my JavaScript journey from scratch, with the
 >
 > ## Where to start
 >
-> - **Want to see the final result?** Go to [`buscador-repos/`](./buscador-repos) and follow its README.
-> - - **Want to see how I learned step by step?** Go to [`practica/`](./practica).
+> - **Want to see the final result?** Go to [`repo-finder/`](./repo-finder) and follow its README.
+> - - **Want to see how I learned step by step?** Go to [`practice/`](./practice).
 >  
 >   - ## Concepts covered
 >  
 >   - 1. **Functions**: parameters, `return` vs `console.log`.
 >     2. 2. **Async**: `fetch`, `await` and `.json()` to work with data from the internet.
 >        3. 3. **Data**: difference between an object and an array, iterating with `for...of`.
->           4. 4. **Robustness**: `try/catch` and `respuesta.ok` so the program doesn't crash on missing users or network failures.
+>           4. 4. **Robustness**: `try/catch` and `response.ok` so the program doesn't crash on missing users or network failures.
 >              5. 5. **Modules**: splitting code into files with `module.exports` / `require` — data fetching in one place, displaying in another.
 >                
 >                 6. ## Requirements
