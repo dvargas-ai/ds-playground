@@ -27,6 +27,21 @@ As the repo grows, content will be organized into folders by topic:
 - `sql/` — Database queries and exercises
 - `misc/` — Everything else that doesn't fit neatly
 
+<details>
+<summary>🇪🇸 Leer en español</summary>
+
+A medida que el repo crezca, el contenido se irá organizando en carpetas por tema:
+
+- `python/` — Fundamentos de Python y ejercicios de scripting
+- `data-analysis/` — Pandas, NumPy, manipulación de datos
+- `visualization/` — Matplotlib, Seaborn, Plotly
+- `machine-learning/` — Algoritmos de ML, experimentos con scikit-learn
+- `deep-learning/` — Redes neuronales, TensorFlow / PyTorch
+- `sql/` — Consultas y ejercicios de bases de datos
+- `misc/` — Todo lo demás que no encaja en otra parte
+
+</details>
+
 ---
 
 ## 🎯 Goal
@@ -36,9 +51,7 @@ Build consistency. A commit a day, a concept a week. The goal isn't perfection �
 <details>
 <summary>🇪🇸 Leer en español</summary>
 
-**Estructura:** a medida que el repo crezca, el contenido se irá organizando en carpetas por tema (Python, análisis de datos, visualización, machine learning, deep learning, SQL y varios).
-
-**Meta:** construir constancia. Un commit al día, un concepto a la semana. El objetivo no es la perfección — es el progreso.
+Construir constancia. Un commit al día, un concepto a la semana. El objetivo no es la perfección — es el progreso.
 
 </details>
 
