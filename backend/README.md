@@ -1,10 +1,10 @@
 # backend
 
 Mi recorrido de **backend con Node.js** dentro de `ds-playground`. Aquí practico la
-construcción de servidores y APIs REST — la base del trabajo en plataformas de
+construcción de servidores y APIs REST, la base del trabajo en plataformas de
 agentes conversacionales como Jelou. Cada tema vive en su propia subcarpeta numerada.
 
-> 🚧 En progreso. Lo voy llenando a medida que avanzo en la Fase 2.
+> 🚧 En progreso. Lo voy llenando a medida que avanzo.
 
 ## Contenido
 
