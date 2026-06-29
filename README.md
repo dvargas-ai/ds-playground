@@ -20,6 +20,8 @@ Mi diario personal de aprendizaje de Ciencia de Datos e IA — un espacio donde 
 As the repo grows, content will be organized into folders by topic:
 
 - `python/` — Python basics and scripting exercises
+- `javascript/` — JavaScript exercises and mini-projects
+- `backend/` — Backend development (Node.js, Express, REST APIs)
 - `data-analysis/` — Pandas, NumPy, data wrangling
 - `visualization/` — Matplotlib, Seaborn, Plotly
 - `machine-learning/` — ML algorithms, scikit-learn experiments
@@ -33,6 +35,8 @@ As the repo grows, content will be organized into folders by topic:
 A medida que el repo crezca, el contenido se irá organizando en carpetas por tema:
 
 - `python/` — Fundamentos de Python y ejercicios de scripting
+- `javascript/` — Ejercicios y mini-proyectos de JavaScript
+- `backend/` — Desarrollo backend (Node.js, Express, APIs REST)
 - `data-analysis/` — Pandas, NumPy, manipulación de datos
 - `visualization/` — Matplotlib, Seaborn, Plotly
 - `machine-learning/` — Algoritmos de ML, experimentos con scikit-learn
